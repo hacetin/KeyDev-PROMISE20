@@ -1,0 +1,92 @@
+{
+    "change_sets": [
+        {
+            "commit_hash": "CS0",
+            "date": "2018-11-17T12:00:00Z",
+            "author": "d1",
+            "issues": [
+                "I0"
+            ],
+            "code_changes": [
+                {
+                    "file_path": "F0",
+                    "change_type": "ADD"
+                }
+            ],
+            "num_current_files": 1
+        },
+        {
+            "commit_hash": "CS1",
+            "date": "2019-01-15T12:00:00Z",
+            "author": "d1",
+            "issues": [
+                "I1"
+            ],
+            "code_changes": [
+                {
+                    "file_path": "F1",
+                    "change_type": "ADD"
+                },
+                {
+                    "file_path": "F2",
+                    "change_type": "ADD"
+                }
+            ],
+            "num_current_files": 3
+        },
+        {
+            "commit_hash": "CS2",
+            "date": "2019-02-14T12:00:00Z",
+            "author": "d2",
+            "issues": [
+                "I2"
+            ],
+            "code_changes": [
+                {
+                    "file_path": "F2",
+                    "change_type": "MODIFY"
+                },
+                {
+                    "file_path": "F3",
+                    "change_type": "ADD"
+                }
+            ],
+            "num_current_files": 4
+        },
+        {
+            "commit_hash": "CS3",
+            "date": "2019-05-15T12:00:00Z",
+            "author": "d3",
+            "issues": [
+                "I2"
+            ],
+            "code_changes": [
+                {
+                    "file_path": "F4",
+                    "change_type": "ADD"
+                }
+            ],
+            "num_current_files": 5
+        },
+        {
+            "commit_hash": "CS4",
+            "date": "2019-11-11T12:00:00Z",
+            "author": "d3",
+            "issues": [
+                "I3"
+            ],
+            "code_changes": [
+                {
+                    "file_path": "F5",
+                    "change_type": "ADD"
+                },
+                {
+                    "file_path": "F6",
+                    "old_file_path": "F4",
+                    "change_type": "RENAME"
+                }
+            ],
+            "num_current_files": 6
+        }
+    ]
+}

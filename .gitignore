@@ -1,0 +1,10 @@
+*.pyc
+.vscode
+__pycache__
+data/*.sqlite3
+data/*.json
+data/*.csv
+data/*.py
+logs/*.log
+results/*.pkl
+results/*.py
