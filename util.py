@@ -147,7 +147,7 @@ def sort_dict(d, by_value=False, reverse=False):
         return {k: d[k] for k in sorted(d, reverse=reverse)}
 
 
-class TestHistoryGraph(unittest.TestCase):
+class TestUtil(unittest.TestCase):
     def test_sort_dict(self):
         d = {1: 10, 2: 11, 4: 8, 3: 9}
 
